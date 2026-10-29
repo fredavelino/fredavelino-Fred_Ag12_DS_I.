@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Define a codificação para aceitar acentos -->
+    <meta charset="UTF-8">
+
+    <!-- Permite adaptar a página a celulares e computadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece na aba do navegador -->
+    <title>Meus sites favoritos</title>
+
+    <!-- Estilos visuais da página -->
+    <style>
+        /* Configuração geral da página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f1f5f9;
+            color: #1e293b;
+        }
+
+        /* Cabeçalho principal */
+        header {
+            background-color: #123456;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        /* Área que organiza os cinco sites */
+        main {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        /* Cartão individual de cada site */
+        .site {
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 12px #00000012;
+        }
+
+        /* Nome de cada site */
+        .site h2 {
+            font-size: 20px;
+            min-height: 48px;
+        }
+
+        /* Imagens dos sites */
+        .site img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin: 10px 0;
+        }
+
+        /* Links para acessar os sites */
+        .site a {
+            color: #0759b5;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        /* Efeito visual quando o mouse passa sobre o link */
+        .site a:hover {
+            text-decoration: underline;
+        }
+
+        /* Rodapé da página */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #475569;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Título principal solicitado na atividade -->
+    <header>
+        <h1>Meus sites favoritos: Fred Avelino</h1>
+        <p>Sites que me ajudam a estudar e aprender tecnologia.</p>
+    </header>
+
+    <!-- Conteúdo principal com cinco sites favoritos -->
+    <main>
+
+        <!-- Primeiro site: YouTube -->
+        <section class="site">
+            <h2>YouTube</h2>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.simpleicons.org/youtube/FF0000"
+                     alt="Logo do YouTube">
+            </a>
+            <p><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                Acessar YouTube
+            </a></p>
+        </section>
+
+        <!-- Segundo site: GitHub -->
+        <section class="site">
+            <h2>GitHub</h2>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.simpleicons.org/github/181717"
+                     alt="Logo do GitHub">
+            </a>
+            <p><a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                Acessar GitHub
+            </a></p>
+        </section>
+
+        <!-- Terceiro site: W3Schools -->
+        <section class="site">
+            <h2>W3Schools</h2>
+            <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.simpleicons.org/w3schools/04AA6D"
+                     alt="Logo do W3Schools">
+            </a>
+            <p><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">
+                Acessar W3Schools
+            </a></p>
+        </section>
+
+        <!-- Quarto site: Python -->
+        <section class="site">
+            <h2>Python</h2>
+            <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.simpleicons.org/python/3776AB"
+                     alt="Logo do Python">
+            </a>
+            <p><a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
+                Acessar Python
+            </a></p>
+        </section>
+
+        <!-- Quinto site: MDN Web Docs -->
+        <section class="site">
+            <h2>MDN Web Docs</h2>
+            <a href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.simpleicons.org/mdnwebdocs/000000"
+                     alt="Logo do MDN Web Docs">
+            </a>
+            <p><a href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener noreferrer">
+                Acessar MDN Web Docs
+            </a></p>
+        </section>
+
+    </main>
+
+    <!-- Rodapé com identificação do trabalho -->
+    <footer>
+        <p>Atividade Ag12_DS_I - Desenvolvimento de Sistemas</p>
+    </footer>
+</body>
+</html>
